@@ -1,7 +1,7 @@
 # Objective-C-Auto-Initialized-Mutable-Collections-Category
-A class method category on NSObject that automatically initializes any mutable collection property.
+A class method category on NSObject that automatically initializes any property (public or private) whose type is mutable collection.
 
-Import the header into your .pch and any class in your project can benefit from a new class method:
+Import the header into your .pch and any class in your project can benefit from a new class initialization method:
 
     + (instancetype)newWithAutoInitializedMutableCollections;
 
