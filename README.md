@@ -12,3 +12,5 @@ This will return a new instance with all properties that are mutable collections
 * NSMutableSet
 * NSMutableOrderedSet
 * NSMutableIndexSet
+
+Why? I have no idea.
